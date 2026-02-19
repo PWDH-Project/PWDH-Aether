@@ -1,0 +1,14 @@
+DROP TABLE IF EXISTS invites;
+DROP TABLE IF EXISTS soundboard_clips;
+DROP TABLE IF EXISTS lfg_participants;
+DROP TABLE IF EXISTS lfg_posts;
+DROP TABLE IF EXISTS user_presence;
+DROP TABLE IF EXISTS direct_messages;
+DROP TABLE IF EXISTS conversation_members;
+DROP TABLE IF EXISTS conversations;
+DROP TABLE IF EXISTS reactions;
+DROP TABLE IF EXISTS messages;
+DROP TABLE IF EXISTS channels;
+DROP TABLE IF EXISTS members;
+DROP TABLE IF EXISTS guilds;
+DROP TABLE IF EXISTS users;

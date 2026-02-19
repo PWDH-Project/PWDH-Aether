@@ -1,0 +1,38 @@
+# Dependencies
+node_modules/
+
+# Next.js build
+.next/
+out/
+
+# Environment (secrets)
+.env
+.env.local
+frontend/.env.local
+
+# Logs
+*.log
+
+# Build output
+dist/
+tmp/
+*.exe
+
+# Go
+backend/tmp/
+backend/vendor/
+
+# IDE
+.vscode/
+.idea/
+.cursor/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Docker volumes
+postgres_data/
+minio_data/
