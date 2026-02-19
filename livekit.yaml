@@ -6,6 +6,9 @@ rtc:
   port_range_end: 7892
   use_external_ip: false
   node_ip: 127.0.0.1
+  # Docker Desktop on Windows can't reliably forward UDP,
+  # so force all WebRTC traffic through TCP
+  force_tcp: true
 
 keys:
   devkey: secret
